@@ -294,12 +294,12 @@ export default function Home() {
               </div>
             </div>
             <div className="flex flex-col gap-8 flex-2">
-              <div className="bg-white flex flex-col rounded-lg">
+              <div className="bg-white flex-1 flex flex-col rounded-lg">
                 <div className="flex gap-6 p-6 border-b-2 border-gray-100">
                   <Coin width={20} height={20} fill="#1c1c1c" />
                   <p className="text-[18px] font-bold">Deals</p>
                 </div>
-                <div className="w-full lg:h-[500px] p-6">
+                <div className="h-[300px] xl:flex-1 p-6">
                   {isClient ? (
                     <AreaGraph
                       precise={true}
